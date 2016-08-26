@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>git-1</title>
+</head>
+<body>
+	<div>
+		<h1>git新建仓库并将本地仓库做的修改push到远程仓库</h1>
+		<ul>
+			<li>1.首先在github上先新建一个仓库,比如test,将会生成一个地址，例如我的是https://github.com/figbir/test.git</li>
+			<li>2.在本地新建一个文件夹test</li>
+			<li>3.echo "# test" >> README.md （这是在本地新建并编辑README.md，其中“#test”就是README.md中的内容）</li>
+			<li>4.git add README.md</li>
+			<li>5.git commit -m "添加README.md"</li>
+			<li>6.git remote add origin https://github.com/figbir/test.git</li>
+			<li>7.git push origin master</li>
+		</ul>
+	</div>
+</body>
+</html>
